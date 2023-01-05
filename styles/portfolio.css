@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  color: #fff;
+  height: 64px;
+  background: #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 35px;
+  margin-right: 20px;
+}
+.btn-outline {
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 35px;
+  background-color: transparent;
+}
+/* Header and navigation styles */
+.header {
+  background-color: #fff8f3;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 61px;
+  color: #181818;
+}
+
+/* Banner Styles */
+
+.banner {
+  display: flex;
+  margin: 0px 200px;
+}
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+  line-height: 61px;
+  margin-bottom: 20px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.para-title {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+/* main section */
+main {
+  width: 1140px;
+  height: 550px;
+  margin: 0 auto;
+}
+/* About Section */
+.about {
+  margin-top: 130px;
+  background: #fff8f3;
+  border-radius: 10px;
+  text-align: center;
+  padding: 130px 150px;
+  font-weight: 700;
+}
+.section-title {
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  line-height: 30px;
+}
+.about .info-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
