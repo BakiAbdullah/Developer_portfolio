@@ -205,3 +205,13 @@ section {
   margin-top: 50px;
   text-align: center;
 }
+/* Contact style */
+.contact{
+  display: flex;
+  gap: 115px;
+  background-color: #fff8f3;
+}
+
+.contact .section-title {
+  text-align: left;
+}
