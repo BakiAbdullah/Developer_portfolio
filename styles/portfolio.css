@@ -210,8 +210,20 @@ section {
   display: flex;
   gap: 115px;
   background-color: #fff8f3;
+  padding: 130px 150px;
 }
 
 .contact .section-title {
   text-align: left;
+}
+
+.contact input, textarea {
+  margin-bottom: 24px;
+  border: none;
+}
+.contact input:focus, textarea:focus {
+  outline: none;
+}
+textarea {
+  resize: none;
 }
